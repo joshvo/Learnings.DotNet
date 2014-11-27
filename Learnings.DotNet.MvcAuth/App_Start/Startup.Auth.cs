@@ -54,15 +54,15 @@ namespace Learnings.DotNet.MvcAuth
             //   consumerKey: "",
             //   consumerSecret: "");
 
-            //app.UseFacebookAuthentication(
-            //   appId: "",
-            //   appSecret: "");
+            app.UseFacebookAuthentication(
+               appId: "1535941609983159",
+               appSecret: "7443cc28de6ae78d04803dad8946431f");
 
-            //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
-            //{
-            //    ClientId = "",
-            //    ClientSecret = ""
-            //});
+            app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
+            {
+                ClientId = "587896024657-4pg5dus1mhd6hv54tsnuvqv5ppurbu6s.apps.googleusercontent.com",
+                ClientSecret = "5Oj3mvf4a-kGscn3Heo6eFm9"
+            });
         }
     }
 }
