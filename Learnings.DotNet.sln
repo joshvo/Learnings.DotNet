@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Learnings.DotNet.Web", "Lea
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Learnings.DotNet.MvcAuth", "Learnings.DotNet.MvcAuth\Learnings.DotNet.MvcAuth.csproj", "{96FEA777-1219-4C65-BF4C-59C1CB679941}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Learnings.DotNet.OwinApp", "Learnings.DotNet.OwinApp\Learnings.DotNet.OwinApp.csproj", "{DECC9E25-1C29-401A-856A-1D13913920AD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{96FEA777-1219-4C65-BF4C-59C1CB679941}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{96FEA777-1219-4C65-BF4C-59C1CB679941}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{96FEA777-1219-4C65-BF4C-59C1CB679941}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DECC9E25-1C29-401A-856A-1D13913920AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DECC9E25-1C29-401A-856A-1D13913920AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DECC9E25-1C29-401A-856A-1D13913920AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DECC9E25-1C29-401A-856A-1D13913920AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
